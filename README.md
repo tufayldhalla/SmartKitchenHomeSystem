@@ -4,6 +4,8 @@ Aims to minimize human error involved in tracking nutrition, giving users a much
 
 The system consists of four main components which communicate wirelessly.
 
+![alt text](https://github.com/tufayldhalla/SmartKitchenHomeSystem/blob/main/Overview%20of%20System.png)
+
 @authors:
   * Tufayl Dhalla
   * Nayeeb Mowla
