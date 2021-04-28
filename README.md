@@ -12,7 +12,7 @@ An overview of the system and the communication between the components can be se
 
 ![alt text](https://github.com/tufayldhalla/SmartKitchenHomeSystem/blob/main/Overview%20of%20System.png)
 
-#Authors:
+# Authors:
   * Tufayl Dhalla
   * Nayeeb Mowla
   * Sahil Sharma
