@@ -1,0 +1,310 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.carleton.sku_app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->/Users/tufayldhalla/Documents/School/Classes/4th Year Project/4YP/sku_app/android/app/src/main/AndroidManifest.xml:3:5-64
+14-->/Users/tufayldhalla/Documents/School/Classes/4th Year Project/4YP/sku_app/android/app/src/main/AndroidManifest.xml:3:22-62
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/tufayldhalla/Documents/School/Classes/4th Year Project/4YP/sku_app/android/app/src/main/AndroidManifest.xml:4:5-66
+15-->/Users/tufayldhalla/Documents/School/Classes/4th Year Project/4YP/sku_app/android/app/src/main/AndroidManifest.xml:4:22-64
+16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+16-->[:camera] /Users/tufayldhalla/Documents/School/Classes/4th Year Project/4YP/sku_app/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-71
+16-->[:camera] /Users/tufayldhalla/Documents/School/Classes/4th Year Project/4YP/sku_app/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-68
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:24:5-79
+17-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:24:22-76
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->[com.google.android.gms:play-services-measurement-api:18.0.1] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/0d64606b043480556ed7dfd94cb9adc2/play-services-measurement-api-18.0.1/AndroidManifest.xml:24:5-68
+18-->[com.google.android.gms:play-services-measurement-api:18.0.1] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/0d64606b043480556ed7dfd94cb9adc2/play-services-measurement-api-18.0.1/AndroidManifest.xml:24:22-65
+19    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+19-->[com.google.android.gms:play-services-measurement:18.0.1] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/1de7fe6c588e09f1f2ab6d92293ed0d2/play-services-measurement-18.0.1/AndroidManifest.xml:26:5-110
+19-->[com.google.android.gms:play-services-measurement:18.0.1] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/1de7fe6c588e09f1f2ab6d92293ed0d2/play-services-measurement-18.0.1/AndroidManifest.xml:26:22-107
+20
+21    <application
+21-->/Users/tufayldhalla/Documents/School/Classes/4th Year Project/4YP/sku_app/android/app/src/main/AndroidManifest.xml:10:5-34:19
+22        android:name="io.flutter.app.FlutterApplication"
+22-->/Users/tufayldhalla/Documents/School/Classes/4th Year Project/4YP/sku_app/android/app/src/main/AndroidManifest.xml:11:9-57
+23        android:allowBackup="false"
+23-->/Users/tufayldhalla/Documents/School/Classes/4th Year Project/4YP/sku_app/android/app/src/main/AndroidManifest.xml:15:9-36
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.1.0] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/44b1706abe044cd42dcac5be863451ed/core-1.1.0/AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:fullBackupContent="false"
+26-->/Users/tufayldhalla/Documents/School/Classes/4th Year Project/4YP/sku_app/android/app/src/main/AndroidManifest.xml:16:9-42
+27        android:icon="@mipmap/ic_launcher"
+27-->/Users/tufayldhalla/Documents/School/Classes/4th Year Project/4YP/sku_app/android/app/src/main/AndroidManifest.xml:13:9-43
+28        android:label="NutriHealth"
+28-->/Users/tufayldhalla/Documents/School/Classes/4th Year Project/4YP/sku_app/android/app/src/main/AndroidManifest.xml:12:9-36
+29        android:usesCleartextTraffic="true" >
+29-->/Users/tufayldhalla/Documents/School/Classes/4th Year Project/4YP/sku_app/android/app/src/main/AndroidManifest.xml:14:9-44
+30        <activity
+30-->/Users/tufayldhalla/Documents/School/Classes/4th Year Project/4YP/sku_app/android/app/src/main/AndroidManifest.xml:17:9-28:20
+31            android:name="com.carleton.sku_app.MainActivity"
+31-->/Users/tufayldhalla/Documents/School/Classes/4th Year Project/4YP/sku_app/android/app/src/main/AndroidManifest.xml:18:13-41
+32            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+32-->/Users/tufayldhalla/Documents/School/Classes/4th Year Project/4YP/sku_app/android/app/src/main/AndroidManifest.xml:21:13-163
+33            android:hardwareAccelerated="true"
+33-->/Users/tufayldhalla/Documents/School/Classes/4th Year Project/4YP/sku_app/android/app/src/main/AndroidManifest.xml:22:13-47
+34            android:launchMode="singleTop"
+34-->/Users/tufayldhalla/Documents/School/Classes/4th Year Project/4YP/sku_app/android/app/src/main/AndroidManifest.xml:19:13-43
+35            android:theme="@style/LaunchTheme"
+35-->/Users/tufayldhalla/Documents/School/Classes/4th Year Project/4YP/sku_app/android/app/src/main/AndroidManifest.xml:20:13-47
+36            android:windowSoftInputMode="adjustResize" >
+36-->/Users/tufayldhalla/Documents/School/Classes/4th Year Project/4YP/sku_app/android/app/src/main/AndroidManifest.xml:23:13-55
+37            <intent-filter>
+37-->/Users/tufayldhalla/Documents/School/Classes/4th Year Project/4YP/sku_app/android/app/src/main/AndroidManifest.xml:24:13-27:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->/Users/tufayldhalla/Documents/School/Classes/4th Year Project/4YP/sku_app/android/app/src/main/AndroidManifest.xml:25:17-68
+38-->/Users/tufayldhalla/Documents/School/Classes/4th Year Project/4YP/sku_app/android/app/src/main/AndroidManifest.xml:25:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/Users/tufayldhalla/Documents/School/Classes/4th Year Project/4YP/sku_app/android/app/src/main/AndroidManifest.xml:26:17-76
+40-->/Users/tufayldhalla/Documents/School/Classes/4th Year Project/4YP/sku_app/android/app/src/main/AndroidManifest.xml:26:27-74
+41            </intent-filter>
+42        </activity>
+43        <!--
+44 Don't delete the meta-data below.
+45             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+46        -->
+47        <meta-data
+47-->/Users/tufayldhalla/Documents/School/Classes/4th Year Project/4YP/sku_app/android/app/src/main/AndroidManifest.xml:31:9-33:33
+48            android:name="flutterEmbedding"
+48-->/Users/tufayldhalla/Documents/School/Classes/4th Year Project/4YP/sku_app/android/app/src/main/AndroidManifest.xml:32:13-44
+49            android:value="2" />
+49-->/Users/tufayldhalla/Documents/School/Classes/4th Year Project/4YP/sku_app/android/app/src/main/AndroidManifest.xml:33:13-30
+50
+51        <service
+51-->[:firebase_ml_vision] /Users/tufayldhalla/Documents/School/Classes/4th Year Project/4YP/sku_app/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+52            android:name="com.google.firebase.components.ComponentDiscoveryService"
+52-->[:firebase_ml_vision] /Users/tufayldhalla/Documents/School/Classes/4th Year Project/4YP/sku_app/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+53            android:directBootAware="true"
+53-->[com.google.firebase:firebase-common:19.5.0] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/acfdbd9d7aa0c6472c8336c8253c9430/jetified-firebase-common-19.5.0/AndroidManifest.xml:35:13-43
+54            android:exported="false" >
+54-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:76:13-37
+55            <meta-data
+55-->[:firebase_ml_vision] /Users/tufayldhalla/Documents/School/Classes/4th Year Project/4YP/sku_app/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+56                android:name="com.google.firebase.components:io.flutter.plugins.firebasemlvision.FlutterFirebaseAppRegistrar"
+56-->[:firebase_ml_vision] /Users/tufayldhalla/Documents/School/Classes/4th Year Project/4YP/sku_app/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-126
+57                android:value="com.google.firebase.components.ComponentRegistrar" />
+57-->[:firebase_ml_vision] /Users/tufayldhalla/Documents/School/Classes/4th Year Project/4YP/sku_app/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+58            <meta-data
+58-->[:firebase_auth] /Users/tufayldhalla/Documents/School/Classes/4th Year Project/4YP/sku_app/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+59                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+59-->[:firebase_auth] /Users/tufayldhalla/Documents/School/Classes/4th Year Project/4YP/sku_app/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+60                android:value="com.google.firebase.components.ComponentRegistrar" />
+60-->[:firebase_auth] /Users/tufayldhalla/Documents/School/Classes/4th Year Project/4YP/sku_app/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+61            <meta-data
+61-->[:firebase_core] /Users/tufayldhalla/Documents/School/Classes/4th Year Project/4YP/sku_app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+62                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+62-->[:firebase_core] /Users/tufayldhalla/Documents/School/Classes/4th Year Project/4YP/sku_app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+63                android:value="com.google.firebase.components.ComponentRegistrar" />
+63-->[:firebase_core] /Users/tufayldhalla/Documents/School/Classes/4th Year Project/4YP/sku_app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+64            <meta-data
+64-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:77:13-79:85
+65                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+65-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:78:17-109
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:79:17-82
+67            <meta-data
+67-->[com.google.firebase:firebase-ml-vision:24.1.0] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/08df75ea65fb06cd7a40f1097ea9dff8/firebase-ml-vision-24.1.0/AndroidManifest.xml:12:13-14:85
+68                android:name="com.google.firebase.components:com.google.firebase.ml.vision.VisionRegistrar"
+68-->[com.google.firebase:firebase-ml-vision:24.1.0] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/08df75ea65fb06cd7a40f1097ea9dff8/firebase-ml-vision-24.1.0/AndroidManifest.xml:13:17-108
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[com.google.firebase:firebase-ml-vision:24.1.0] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/08df75ea65fb06cd7a40f1097ea9dff8/firebase-ml-vision-24.1.0/AndroidManifest.xml:14:17-82
+70            <meta-data
+70-->[com.google.firebase:firebase-ml-model-interpreter:22.0.4] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/5c1328632c01c8ce9d954b2203a5b1c6/firebase-ml-model-interpreter-22.0.4/AndroidManifest.xml:12:13-14:85
+71                android:name="com.google.firebase.components:com.google.firebase.ml.custom.CustomModelRegistrar"
+71-->[com.google.firebase:firebase-ml-model-interpreter:22.0.4] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/5c1328632c01c8ce9d954b2203a5b1c6/firebase-ml-model-interpreter-22.0.4/AndroidManifest.xml:13:17-113
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[com.google.firebase:firebase-ml-model-interpreter:22.0.4] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/5c1328632c01c8ce9d954b2203a5b1c6/firebase-ml-model-interpreter-22.0.4/AndroidManifest.xml:14:17-82
+73            <meta-data
+73-->[com.google.firebase:firebase-ml-common:22.1.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/2ba423a637b746e233b163c166421186/firebase-ml-common-22.1.2/AndroidManifest.xml:11:13-13:85
+74                android:name="com.google.firebase.components:com.google.firebase.ml.common.CommonComponentRegistrar"
+74-->[com.google.firebase:firebase-ml-common:22.1.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/2ba423a637b746e233b163c166421186/firebase-ml-common-22.1.2/AndroidManifest.xml:12:17-117
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[com.google.firebase:firebase-ml-common:22.1.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/2ba423a637b746e233b163c166421186/firebase-ml-common-22.1.2/AndroidManifest.xml:13:17-82
+76            <meta-data
+76-->[com.google.android.gms:play-services-measurement-api:18.0.1] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/0d64606b043480556ed7dfd94cb9adc2/play-services-measurement-api-18.0.1/AndroidManifest.xml:30:13-32:85
+77                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+77-->[com.google.android.gms:play-services-measurement-api:18.0.1] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/0d64606b043480556ed7dfd94cb9adc2/play-services-measurement-api-18.0.1/AndroidManifest.xml:31:17-139
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[com.google.android.gms:play-services-measurement-api:18.0.1] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/0d64606b043480556ed7dfd94cb9adc2/play-services-measurement-api-18.0.1/AndroidManifest.xml:32:17-82
+79            <meta-data
+79-->[com.google.firebase:firebase-installations:16.3.5] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/2c1b778f09d17c9a8a92258ee62b2bd6/firebase-installations-16.3.5/AndroidManifest.xml:18:13-20:85
+80                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+80-->[com.google.firebase:firebase-installations:16.3.5] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/2c1b778f09d17c9a8a92258ee62b2bd6/firebase-installations-16.3.5/AndroidManifest.xml:19:17-127
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[com.google.firebase:firebase-installations:16.3.5] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/2c1b778f09d17c9a8a92258ee62b2bd6/firebase-installations-16.3.5/AndroidManifest.xml:20:17-82
+82            <!--
+83                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+84                clients to use it as well, by defining this registrar in their own core/common library.
+85            -->
+86            <meta-data
+86-->[com.google.firebase:firebase-common:19.5.0] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/acfdbd9d7aa0c6472c8336c8253c9430/jetified-firebase-common-19.5.0/AndroidManifest.xml:43:13-45:85
+87                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+87-->[com.google.firebase:firebase-common:19.5.0] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/acfdbd9d7aa0c6472c8336c8253c9430/jetified-firebase-common-19.5.0/AndroidManifest.xml:44:17-121
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.firebase:firebase-common:19.5.0] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/acfdbd9d7aa0c6472c8336c8253c9430/jetified-firebase-common-19.5.0/AndroidManifest.xml:45:17-82
+89        </service>
+90
+91        <activity
+91-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:27:9-44:20
+92            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+92-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:28:13-80
+93            android:excludeFromRecents="true"
+93-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:29:13-46
+94            android:exported="true"
+94-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:30:13-36
+95            android:launchMode="singleTask"
+95-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:31:13-44
+96            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+96-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:32:13-72
+97            <intent-filter>
+97-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:33:13-43:29
+98                <action android:name="android.intent.action.VIEW" />
+98-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:34:17-69
+98-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:34:25-66
+99
+100                <category android:name="android.intent.category.DEFAULT" />
+100-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:36:17-76
+100-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:36:27-73
+101                <category android:name="android.intent.category.BROWSABLE" />
+101-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:37:17-78
+101-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:37:27-75
+102
+103                <data
+103-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:39:17-42:51
+104                    android:host="firebase.auth"
+104-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:40:21-49
+105                    android:path="/"
+105-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:41:21-37
+106                    android:scheme="genericidp" />
+106-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:42:21-48
+107            </intent-filter>
+108        </activity>
+109        <activity
+109-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:45:9-62:20
+110            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+110-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:46:13-79
+111            android:excludeFromRecents="true"
+111-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:47:13-46
+112            android:exported="true"
+112-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:48:13-36
+113            android:launchMode="singleTask"
+113-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:49:13-44
+114            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+114-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:50:13-72
+115            <intent-filter>
+115-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:51:13-61:29
+116                <action android:name="android.intent.action.VIEW" />
+116-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:34:17-69
+116-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:34:25-66
+117
+118                <category android:name="android.intent.category.DEFAULT" />
+118-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:36:17-76
+118-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:36:27-73
+119                <category android:name="android.intent.category.BROWSABLE" />
+119-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:37:17-78
+119-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:37:27-75
+120
+121                <data
+121-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:39:17-42:51
+122                    android:host="firebase.auth"
+122-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:40:21-49
+123                    android:path="/"
+123-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:41:21-37
+124                    android:scheme="recaptcha" />
+124-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:42:21-48
+125            </intent-filter>
+126        </activity>
+127
+128        <service
+128-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:64:9-73:19
+129            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+129-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:65:13-101
+130            android:enabled="true"
+130-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:66:13-35
+131            android:exported="false" >
+131-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:67:13-37
+132            <intent-filter>
+132-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:68:13-72:29
+133                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+133-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:69:17-89
+133-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:69:25-86
+134
+135                <category android:name="android.intent.category.DEFAULT" />
+135-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:36:17-76
+135-->[com.google.firebase:firebase-auth:20.0.2] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/dafd71c24687f0cfaa20de6ca0374012/jetified-firebase-auth-20.0.2/AndroidManifest.xml:36:27-73
+136            </intent-filter>
+137        </service>
+138
+139        <activity
+139-->[com.google.android.gms:play-services-base:17.1.0] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/12b2a981af48a4d34665a895e1a50203/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+140            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+140-->[com.google.android.gms:play-services-base:17.1.0] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/12b2a981af48a4d34665a895e1a50203/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+141            android:exported="false"
+141-->[com.google.android.gms:play-services-base:17.1.0] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/12b2a981af48a4d34665a895e1a50203/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+142            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+142-->[com.google.android.gms:play-services-base:17.1.0] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/12b2a981af48a4d34665a895e1a50203/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+143
+144        <provider
+144-->[com.google.firebase:firebase-common:19.5.0] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/acfdbd9d7aa0c6472c8336c8253c9430/jetified-firebase-common-19.5.0/AndroidManifest.xml:26:9-31:39
+145            android:name="com.google.firebase.provider.FirebaseInitProvider"
+145-->[com.google.firebase:firebase-common:19.5.0] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/acfdbd9d7aa0c6472c8336c8253c9430/jetified-firebase-common-19.5.0/AndroidManifest.xml:27:13-77
+146            android:authorities="com.carleton.sku_app.firebaseinitprovider"
+146-->[com.google.firebase:firebase-common:19.5.0] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/acfdbd9d7aa0c6472c8336c8253c9430/jetified-firebase-common-19.5.0/AndroidManifest.xml:28:13-72
+147            android:directBootAware="true"
+147-->[com.google.firebase:firebase-common:19.5.0] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/acfdbd9d7aa0c6472c8336c8253c9430/jetified-firebase-common-19.5.0/AndroidManifest.xml:29:13-43
+148            android:exported="false"
+148-->[com.google.firebase:firebase-common:19.5.0] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/acfdbd9d7aa0c6472c8336c8253c9430/jetified-firebase-common-19.5.0/AndroidManifest.xml:30:13-37
+149            android:initOrder="100" />
+149-->[com.google.firebase:firebase-common:19.5.0] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/acfdbd9d7aa0c6472c8336c8253c9430/jetified-firebase-common-19.5.0/AndroidManifest.xml:31:13-36
+150
+151        <receiver
+151-->[com.google.android.gms:play-services-measurement:18.0.1] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/1de7fe6c588e09f1f2ab6d92293ed0d2/play-services-measurement-18.0.1/AndroidManifest.xml:29:9-33:20
+152            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+152-->[com.google.android.gms:play-services-measurement:18.0.1] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/1de7fe6c588e09f1f2ab6d92293ed0d2/play-services-measurement-18.0.1/AndroidManifest.xml:30:13-85
+153            android:enabled="true"
+153-->[com.google.android.gms:play-services-measurement:18.0.1] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/1de7fe6c588e09f1f2ab6d92293ed0d2/play-services-measurement-18.0.1/AndroidManifest.xml:31:13-35
+154            android:exported="false" >
+154-->[com.google.android.gms:play-services-measurement:18.0.1] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/1de7fe6c588e09f1f2ab6d92293ed0d2/play-services-measurement-18.0.1/AndroidManifest.xml:32:13-37
+155        </receiver>
+156
+157        <service
+157-->[com.google.android.gms:play-services-measurement:18.0.1] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/1de7fe6c588e09f1f2ab6d92293ed0d2/play-services-measurement-18.0.1/AndroidManifest.xml:35:9-38:40
+158            android:name="com.google.android.gms.measurement.AppMeasurementService"
+158-->[com.google.android.gms:play-services-measurement:18.0.1] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/1de7fe6c588e09f1f2ab6d92293ed0d2/play-services-measurement-18.0.1/AndroidManifest.xml:36:13-84
+159            android:enabled="true"
+159-->[com.google.android.gms:play-services-measurement:18.0.1] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/1de7fe6c588e09f1f2ab6d92293ed0d2/play-services-measurement-18.0.1/AndroidManifest.xml:37:13-35
+160            android:exported="false" />
+160-->[com.google.android.gms:play-services-measurement:18.0.1] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/1de7fe6c588e09f1f2ab6d92293ed0d2/play-services-measurement-18.0.1/AndroidManifest.xml:38:13-37
+161        <service
+161-->[com.google.android.gms:play-services-measurement:18.0.1] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/1de7fe6c588e09f1f2ab6d92293ed0d2/play-services-measurement-18.0.1/AndroidManifest.xml:39:9-43:72
+162            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+162-->[com.google.android.gms:play-services-measurement:18.0.1] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/1de7fe6c588e09f1f2ab6d92293ed0d2/play-services-measurement-18.0.1/AndroidManifest.xml:40:13-87
+163            android:enabled="true"
+163-->[com.google.android.gms:play-services-measurement:18.0.1] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/1de7fe6c588e09f1f2ab6d92293ed0d2/play-services-measurement-18.0.1/AndroidManifest.xml:41:13-35
+164            android:exported="false"
+164-->[com.google.android.gms:play-services-measurement:18.0.1] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/1de7fe6c588e09f1f2ab6d92293ed0d2/play-services-measurement-18.0.1/AndroidManifest.xml:42:13-37
+165            android:permission="android.permission.BIND_JOB_SERVICE" />
+165-->[com.google.android.gms:play-services-measurement:18.0.1] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/1de7fe6c588e09f1f2ab6d92293ed0d2/play-services-measurement-18.0.1/AndroidManifest.xml:43:13-69
+166
+167        <meta-data
+167-->[com.google.android.gms:play-services-basement:17.1.0] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/2c7fdb8c4349b8ff0a9ea6a7c4163a3a/jetified-play-services-basement-17.1.0/AndroidManifest.xml:23:9-25:69
+168            android:name="com.google.android.gms.version"
+168-->[com.google.android.gms:play-services-basement:17.1.0] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/2c7fdb8c4349b8ff0a9ea6a7c4163a3a/jetified-play-services-basement-17.1.0/AndroidManifest.xml:24:13-58
+169            android:value="@integer/google_play_services_version" />
+169-->[com.google.android.gms:play-services-basement:17.1.0] /Users/tufayldhalla/.gradle/caches/transforms-2/files-2.1/2c7fdb8c4349b8ff0a9ea6a7c4163a3a/jetified-play-services-basement-17.1.0/AndroidManifest.xml:25:13-66
+170    </application>
+171
+172</manifest>
